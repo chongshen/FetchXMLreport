@@ -1,0 +1,22 @@
+<fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+  <entity name="lcrm_courseevaluationsurvey">
+    <attribute name="lcrm_courseevaluationsurveyid" />
+    <attribute name="lcrm_name" />
+    <attribute name="createdon" />
+    <attribute name="statuscode" />
+    <attribute name="statecode" />
+    <attribute name="lcrm_session" />
+    <attribute name="overriddencreatedon" />
+    <attribute name="lcrm_rating" />
+    <attribute name="ownerid" />
+    <attribute name="modifiedon" />
+    <attribute name="modifiedonbehalfby" />
+    <attribute name="modifiedby" />
+    <attribute name="lcrm_enrollment" />
+    <attribute name="createdonbehalfby" />
+    <attribute name="createdby" />
+    <attribute name="lcrm_course" />
+    <attribute name="lcrm_comments" />
+    <order attribute="lcrm_name" descending="false" />
+  </entity>
+</fetch>
